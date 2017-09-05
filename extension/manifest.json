@@ -7,7 +7,9 @@
   "homepage_url": "https://github.com/rishipuri/rhodecode-enhancement-tools",
 
   "permissions": [
-    "activeTab",
+    "tabs",
+    "http://*/",
+    "https://*/",
     "storage"
   ],
 
