@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Rhodecode Enhancement Tools",
+  "version": "0.0.1",
+  "description": "A chrome extension that simplifies the Rhodecode interface and adds useful features",
+  "homepage_url": "https://github.com/rishipuri/rhodecode-enhancement-tools",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
