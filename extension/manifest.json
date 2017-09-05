@@ -7,12 +7,18 @@
   "homepage_url": "https://github.com/rishipuri/rhodecode-enhancement-tools",
 
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
 
   "background": {
     "scripts": [
       "background.js"
     ]
+  },
+
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
   }
 }
