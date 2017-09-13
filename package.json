@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "A chrome extension that simplifies the Rhodecode interface and adds useful features",
   "scripts": {
-    "test": ""
+    "test": "",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -14,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rishipuri/rhodecode-enhancement-tools/issues"
   },
-  "homepage": "https://github.com/rishipuri/rhodecode-enhancement-tools#readme"
+  "homepage": "https://github.com/rishipuri/rhodecode-enhancement-tools#readme",
+  "devDependencies": {
+    "webpack": "^3.5.6"
+  }
 }
