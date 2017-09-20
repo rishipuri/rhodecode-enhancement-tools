@@ -18,6 +18,23 @@
   },
   "homepage": "https://github.com/rishipuri/rhodecode-enhancement-tools#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "webpack": "^3.5.6"
+  },
+  "dependencies": {
+    "dom-chef": "^2.0.0",
+    "select-dom": "^4.1.1"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "transform-react-jsx",
+        {
+          "pragma": "h"
+        }
+      ]
+    ]
   }
 }

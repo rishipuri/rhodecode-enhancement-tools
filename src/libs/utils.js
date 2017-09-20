@@ -5,12 +5,13 @@ export const injectScriptIfUrlIsValid = url => {
 
       chrome.tabs.executeScript(tabId, {
         file: 'content.js',
-        runAt: 'document_start'
+        runAt: 'document_end'
+      });
+
+      chrome.tabs.insertCSS(tabId, {
+        file: 'content.css',
+        runAt: 'document_end'
       })
     }
   })
-}
-
-export const hello = () => {
-  console.log('Hello Rhodecode!')
 }
